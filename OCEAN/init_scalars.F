@@ -2772,9 +2772,9 @@ CR      write(stdout,'(1x,A,I3)') 'indxVWND =',indxVWND
 
 #ifdef DIAGNOSTICS_TS
 # if defined DIAGNOSTICS_TS_VOL
-       unitt_diag=' second-1                     '
-# else
        unitt_diag=' m-3 second-1                 '
+# else
+       unitt_diag=' second-1                     '
 # endif
       do itrc=1,NT
 
