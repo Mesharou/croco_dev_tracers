@@ -8,8 +8,8 @@ Notes on recent developments for tracer budgets corresponding to the following o
  ```
  #  define MLD_RHO 
  #  define DIAGNOSTICS_TS
- #  define DIAGNOSTICS_TS\_mld 
- #  define DIAGNOSTICS_TRACERS_ISO 
+ #  define DIAGNOSTICS_TS_MLD
+ #  define DIAGNOSTICS_TRACER_ISO 
  ```
 
 
@@ -25,7 +25,7 @@ If MLD\_RHO is activated, the definition of the MLD is provided in **mld_rho.F**
 
  ```
  #  define DIAGNOSTICS_TS
- #  define DIAGNOSTICS_TS\_mld 
+ #  define DIAGNOSTICS_TS_MLD 
  #  define MLD_RHO 
  ```
  
